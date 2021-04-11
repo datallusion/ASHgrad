@@ -1,7 +1,7 @@
 # ASHgrad
-Approximate Stabilized Hessian Gradient Descent
+Approximate Stabilized Hessian Gradient Descent (ASHgrad)
 
-This repository gives the code for the ASH grad optimization algorithm (SO_SGD) file.  Along with this file is an example training script. Both scripts are based on tensorflow 2.3.1 library. 
+This repository gives the code for the ASHgrad optimization algorithm (SO_SGD) file.  Along with this file is an example training script. Both scripts are based on tensorflow 2.3.1 library. 
 
 # Running:
 To run the code, ensure that both scripts are in the same directory.
@@ -25,4 +25,4 @@ The script is currently set up to run ASHgrad. However the paper compares the pe
 This repository does not contain pretrained models.  The purpose of the repository is to present the ASHgrad optimizer and provide example training code.
 
 # Evaluation
-The paper presents graphics comparing the test performance of ASHgrad versus SGD with two learning rates and ADAM.  These graphics were prepared by saving the **final** variable from each run into a csv file (see example for format). The **plotter** script produces the graphics. 
+The paper presents graphics comparing the test performance of ASHgrad versus SGD with two learning rates and ADAM.  These graphics were prepared by saving the **final** variable from each run into a *.xls file (see example for format). The **ASHgrad_plotter** script produces the graphics. 
